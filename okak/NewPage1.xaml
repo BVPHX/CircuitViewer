@@ -7,9 +7,10 @@
              Disappearing="ContentPage_Disappearing">
     <VerticalStackLayout>
         <ListView/>
-        <syncfusion:SfPdfViewer x:Name="PdfViewer"
+        <!--<syncfusion:SfPdfViewer x:Name="PdfViewer"
                                DocumentSource="{Binding PdfDocumentStream}">
-        </syncfusion:SfPdfViewer>
+        </syncfusion:SfPdfViewer>-->
+        <Image x:Name="kartinka" Source="da.jpg" Aspect="Fill"/>
         <Button BackgroundColor="Bisque" Text="OK" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
